@@ -1,6 +1,6 @@
 # Trabalho Final Sistemas Distribuidos
 
-###Resumo
+### Resumo
 Este trabalho consiste no desenvolvimento de uma aplicação
 cliente/servidor para um jogo da velha onde o clinte enfrentará
 o computador.
