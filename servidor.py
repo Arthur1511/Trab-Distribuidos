@@ -20,8 +20,9 @@ Um versão simples do algoritmo MINIMAX para o Jogo da Velha.
 
 
 @Pyro4.expose
-@Pyro4.behavior(instance_mode="single")
+@Pyro4.behavior(instance_mode="session")
 class Jogo(object):
+
     objects = []
 
     def __init__(self):

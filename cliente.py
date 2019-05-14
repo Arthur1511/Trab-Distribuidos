@@ -2,7 +2,7 @@ import sys
 import Pyro4
 import Pyro4.util
 from random import choice
-import  time
+import time
 
 
 sys.excepthook = Pyro4.util.excepthook
