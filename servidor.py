@@ -18,7 +18,7 @@ Um versão simples do algoritmo MINIMAX para o Jogo da Velha.
 # indicando o jogador que movimentou nessa posição.
 # Começa vazio, com zero em todas posições.
 
-
+#comentarioa aqui
 @Pyro4.expose
 @Pyro4.behavior(instance_mode="session")
 class Jogo(object):
