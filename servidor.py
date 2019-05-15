@@ -152,7 +152,7 @@ class Jogo(object):
     """
 
     def exec_movimento(self, x, y, jogador):
-        if self.movimento_valido(x, y):
+        if self.movimento_valido(int(x), int(y)):
             self.estado[x][y] = jogador
             return True
         else:
@@ -170,6 +170,8 @@ class Jogo(object):
     """
 
     def minimax(self, profundidade, jogador):
+        int(profundidade)
+        int(jogador)
         # valor-minmax(estado)
         if jogador == self.COMP:
             melhor = [-1, -1, -infinity]
@@ -230,6 +232,8 @@ class Jogo(object):
     #     print('\n----------------')
 
     def exibe_tabuleiro(self, comp_escolha, humano_escolha):
+        # str(comp_escolha)
+        # str(humano_escolha)
         exibir = '----------------\n'
         for row in self.estado:
             exibir += '\n----------------\n'
