@@ -21,7 +21,7 @@ do pyro.
 * Execute o _cliente.py_ para jogar
 * Caso queira testar a intercomunicação entre aplicações desenvolvidas
 em linguagens diferentes, existe uma versão do cliente em Java que
-se encontra em: https://github.com/Arthur1511/Trab-Distribuidos
+se encontra em: https://github.com/Arthur1511/Trab-Distribuidos-cliente-java
  
 ### Caracteristicas
 * As escolhas do computador serão feitas pelo algoritmo Min-max 
