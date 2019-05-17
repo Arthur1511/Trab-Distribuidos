@@ -13,7 +13,7 @@ Primeiramente, caso não tenha, instale o modulo Pyro4
 (link se encontra nas referencias). 
 
 Com o modulo devidamente instalado utilize o comando 
-"pyro4-ns -n ip_servidor", onde ip_servidor é o ip da máquina 
+"pyro4-ns -n ip_servidor" (ou excute o script nameservice.py), onde ip_servidor é o ip da máquina 
 que irá executar o servidor, para iniciar o servidor de nomes 
 do pyro.
 

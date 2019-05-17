@@ -1,10 +1,10 @@
 # !/usr/bin/env python3
 from math import inf as infinity
-from random import choice
 import platform
-import time
 from os import system
 import Pyro4
+import socket
+import os
 
 """
 Um versão simples do algoritmo MINIMAX para o Jogo da Velha.
@@ -237,6 +237,11 @@ class Jogo(object):
 
     """ ---------------------------------------------------------- """
 
-Pyro4.Daemon.serveSimple({Jogo: "teste.jogo"}, ns=True)
+
+HOST = socket.gethostbyname(socket.gethostname())
+
+Pyro4.Daemon.serveSimple({Jogo: "teste.jogo"}, host=HOST, ns=True)
+
+
 
 
